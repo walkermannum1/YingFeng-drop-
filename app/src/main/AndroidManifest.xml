@@ -28,6 +28,18 @@
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="GFIM1XnU7bKyKdy3Dbr7oCScvFvPLLbp"/>
+        <service
+            android:name="com.baidu.trace.LBSTraceService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <service
+
+        android:name="com.example.user.yingfeng.MyService"
+        android:enabled="true"
+        android:exported="false"
+        android:process=":track" >
+    </service>
     </application>
 
 </manifest>
