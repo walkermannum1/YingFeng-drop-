@@ -1,12 +1,12 @@
 package com.example.user.yingfeng;
 
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.map.MapView;
 
-public class MapActivity extends AppCompatActivity {
+public class MapActivity extends FragmentActivity {
 
     MapView mMapView = null;
 
