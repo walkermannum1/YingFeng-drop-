@@ -12,6 +12,7 @@ public class Ride {
     private String mTitle;
     private Date mDate;
 
+
     public long getDuration() {
         return duration;
     }
