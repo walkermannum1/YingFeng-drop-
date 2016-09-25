@@ -11,6 +11,15 @@ public class Ride {
     private UUID mId;
     private String mTitle;
     private Date mDate;
+
+    public long getDuration() {
+        return duration;
+    }
+
+    public void setDuration(long duration) {
+        this.duration = duration;
+    }
+
     private long duration;
 
     public String getTitle() {
