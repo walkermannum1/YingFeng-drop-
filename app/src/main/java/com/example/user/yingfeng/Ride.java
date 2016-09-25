@@ -1,5 +1,6 @@
 package com.example.user.yingfeng;
 
+import java.util.Date;
 import java.util.UUID;
 
 /**
@@ -9,6 +10,8 @@ public class Ride {
 
     private UUID mId;
     private String mTitle;
+    private Date mDate;
+    private long duration;
 
     public String getTitle() {
         return mTitle;
